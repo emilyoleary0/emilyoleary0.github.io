@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--My lab 12 template. Emily Oleary. section H01. 11/7/23-->
+<meta charset="utf-8">
+
+<title> Lab 12 EO</title> 
+</head>
+
+<style>
+body{
+background-color:pink;}
+
+.bday{position:absolute;
+top:0px;
+left:0px;
+width:1000px;
+font-size:30pt;
+text-align:center;
+color:DeepPink
+}
+
+.fun{position:absolute;
+top:150px;
+left:430px;
+width:200px;
+padding:10px;
+text-align:center;
+}
+
+.note{position:absolute;
+top:200px;
+left:100px;
+width:200px;
+text-align:justify;
+font-size:20pt;}
+
+.notetwo{position:absolute;
+top:200px;
+left:800px;
+width:200px;
+text-align:justify;
+font-size:20pt;}
+
+.love{position:absolute;
+top:550px;
+left:460px;
+width:200px;
+text-align:justify;
+font-size:20pt;
+color:DeepPink}
+
+</style>
+
+<script> 
+function cake(x,y){
+document.getElementById(x).src=y;
+};
+
+</script>
+
+<body>
+
+<h1 class="bday"> HAPPY BIRTHDAY TO AN AWESOME FRIEND!</h1>
+
+<div class="fun">
+<img  onmouseover="cake('balloon','cake.jpg')" onmouseout="cake('balloon','balloons.jpg')" id="balloon" height="250" width="250" src="balloons.jpg" alt="bday balloons">
+</div>
+
+
+
+
+<div class="note">
+Thank you for being such an awesome friend! You are receiving this card because you deserve to have the most AWESOME birthday ever! 
+</div>
+
+<div class="notetwo">
+This birthday will definitley be the best yet, and I'm so glad you have made it to this year of great excellence! Best wishes for the future! It is looking bright!
+</div>
+
+<div class="love">
+With love, your best friend! Enjoy some cake!
+</div>
+
+</body>
+</html>
